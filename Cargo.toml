@@ -1,0 +1,17 @@
+[package]
+name = "selva"
+version = "0.1.0"
+authors = ["Payton Turnage <pt@paytonturnage.com>"]
+description = "A glsl live coding daemon."
+license = "GPLv3"
+license-file = "license"
+maintenance = { status = "unmaintained" }
+
+[dependencies]
+structopt = "0.2"
+glium = "0.21.0"
+glsl-include = "0.2"
+glslwatch = { path = "../glslwatch" }
+lazy_static = "0.1"
+image = "0.19"
+itertools = "0.7"
